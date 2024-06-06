@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelDescription = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -89,6 +90,16 @@
             this.labelDescription.TabIndex = 25;
             this.labelDescription.Text = "MovieInfo is a comprehensive system designed to manage information about movies.";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(342, 259);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(264, 16);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "Update From Kikosan754 alt github account";
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -96,6 +107,7 @@
             this.BackgroundImage = global::MovieInfo.Properties.Resources.Sixty_and_Me_Film_Review_Fonda_and_Tomlin_in_Moving_On;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.labelDescription);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
@@ -119,5 +131,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label labelDescription;
+        private System.Windows.Forms.Label label2;
     }
 }
